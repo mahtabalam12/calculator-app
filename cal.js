@@ -6,7 +6,7 @@ function press(value) {
   document.getElementById("display").textContent = currentInput;
 }
 
-function calculate() {
+function calculate()  {
   try {
     const result = eval(currentInput);
     document.getElementById("display").textContent = result;
